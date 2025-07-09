@@ -43,28 +43,30 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "AllyNet - Student-Alumni Portal",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A MERN stack-based web portal to connect students and alumni, featuring real-time event updates, club information, alumni interaction, and selection results to foster a strong campus network.",
+    technologies: ["MongoDB", "Express", "React", "Node.js"],
   },
   {
-    title: "Task Management App",
+    title: "Zero Hunger Platform ",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A frontend React application developed during IBM's virtual internship, focusing on the Zero Hunger mission. It includes a chatbot, food quality interface, and donation flow UI to streamline food distribution.",
+    technologies: ["React", "HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
- 
+  title: "Vintage PhotoBooth App",
+  image: project3,
+  description:
+    "A retro-themed PhotoBooth web app with live camera access, real-time filters, and photo strip generation. Built for capturing and saving moments with a nostalgic touch.",
+  technologies: ["React", "WebRTC", "HTML5 Canvas", "CSS"],
+  link:"https://photo-booth-rosy.vercel.app/"
+}
+
 ];
+
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",

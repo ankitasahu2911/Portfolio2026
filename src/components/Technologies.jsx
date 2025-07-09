@@ -4,6 +4,7 @@ import { SiMongodb, SiHtml5, SiCss3, SiBootstrap, SiTailwindcss, SiJavascript } 
 import { DiRedis } from 'react-icons/di';
 import { FaNodeJs, FaNode } from 'react-icons/fa';
 import { IoLogoNodejs } from 'react-icons/io';
+import { SiExpress } from 'react-icons/si';
 
 const Technologies = () => {
   return (
@@ -24,7 +25,7 @@ const Technologies = () => {
           { icon: <TbBrandNextjs className="text-7xl text-white" />, name: 'Next.js' },
           { icon: <FaNodeJs className="text-7xl text-green-500" />, name: 'Node.js' },
           { icon: <SiMongodb className="text-7xl text-green-500" />, name: 'MongoDB' },
-          { icon: <DiRedis className="text-7xl text-red-700" />, name: 'Redis' },
+          { icon: <SiExpress className="text-7xl text-red-700" />, name: 'Express' },
           { icon: <SiBootstrap className="text-7xl text-purple-600" />, name: 'Bootstrap' },
           { icon: <SiTailwindcss className="text-7xl text-teal-400" />, name: 'TailwindCSS' },
         ].map((tech, index) => (

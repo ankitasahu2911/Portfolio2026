@@ -31,7 +31,7 @@ const Home = () => {
           </p>
           {/* Resume Button */}
           <a
-  href="/Ankita_Sahu_Resume.pdf"
+  href="https://drive.google.com/file/d/1_Li7pmiOTcgxYok3ye0ajvFVZVvSyeGJ/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-purple-600 hover:bg-purple-700 py-3 px-8 rounded-full text-white font-bold transition-transform transform hover:scale-105"

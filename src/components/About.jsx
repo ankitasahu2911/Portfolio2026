@@ -1,5 +1,5 @@
 import React from 'react';
-import AnkitaSahu from '../assets/AnkitaSahu.jpg';
+import AnkitaSahu from '../assets/girl1.png';
 
 const AboutMe = () => {
   return (
